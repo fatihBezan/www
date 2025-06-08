@@ -94,6 +94,20 @@ footer {
     margin-top: 10px;
     display: inline-block;
 }
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 24px;
+    margin: 24px auto;
+    max-width: 800px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    transform: translateY(-6px) scale(1.03);
+}
 @media (max-width: 600px) {
     header, section, footer {
         padding: 16px 4vw;
